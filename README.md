@@ -59,16 +59,6 @@ uri()
 // uber://?action=setPickup&pickup[formatted_address]=.....
 ```
 
-### Other methods available
-
-```javascript
-uri()
-  .port('8080')
-  .auth('user:pass')
-  .path('/bar/foo.xml')
-  .hash('hash=1');
-```
-
 ## Parse URI
 
 ```javascript
@@ -83,7 +73,7 @@ url.auth(); // -> { user: 'user', password: 'pass' }
 url.user(); // -> user
 url.password(); // -> pass
 url.path(); // -> /test-path/
-url.search(); // -> action=setPickup&pickup[formatted_address]
-url.query(); // -> { action: 'setPickup', pickup: { formatted_address = '', .. } }
+url.search(); // -> action=setPickup&pickup[formatted_address]=...
+url.query(); // -> { action: 'setPickup', pickup: { formatted_address = '...', ... } }
 url.hash(); // -> hash=1
 ```
