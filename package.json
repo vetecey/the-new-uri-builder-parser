@@ -1,0 +1,29 @@
+{
+  "name": "the-new-uri-builder-parser",
+  "version": "1.0.0",
+  "description": "The new URI Builder & Parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzarca01/the-new-uri-builder-parser.git"
+  },
+  "keywords": [
+    "uri",
+    "build",
+    "parse",
+    "javascript",
+    "es6"
+  ],
+  "author": "Jérémie Zarca <jeremie.zarca@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jzarca01/the-new-uri-builder-parser/issues"
+  },
+  "homepage": "https://github.com/jzarca01/the-new-uri-builder-parser#readme",
+  "dependencies": {
+    "qs": "^6.7.0"
+  }
+}
